@@ -361,10 +361,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="327" y="63" key="#tomcat9/0.0.1280.720@0.0.1280.720" timestamp="1590722814035" />
-    <state x="174" y="0" key="CommitChangelistDialog2" timestamp="1591434049499">
+    <state x="174" y="0" key="CommitChangelistDialog2" timestamp="1591434112489">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="174" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1591434049499" />
+    <state x="174" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1591434112489" />
     <state x="430" y="118" key="FileChooserDialogImpl" timestamp="1590804250238">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -457,6 +457,10 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1591434102807" />
+    <state x="233" y="97" key="Vcs.Push.Dialog.v2" timestamp="1591434150106">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="97" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1591434150106" />
     <state x="337" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1591403858085">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
