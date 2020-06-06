@@ -2,241 +2,37 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="project1:war exploded" />
+      <artifact name="mask_manage_project:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9319d878-cddf-45f3-90a9-1877f619851e" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/project1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/controller/testController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/entity/requirement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/entity/requirementExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/entity/requirementExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/entity/requirementExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/entity/requirementExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/exception/CustomException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/exception/CustomExceptionResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/mapper/requirementMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/service/impl/requirementServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/service/requirementService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/META-INF/project1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/controller/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/controller/RestPasswordController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/controller/StudentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/controller/TeacherController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/controller/converter/CustomDateConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/controller/testController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/College.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CollegeCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CollegeExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CollegeExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CollegeExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CollegeExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/Course.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CourseCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CourseExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CourseExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CourseExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/CourseExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/PagingVO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/RoleExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/RoleExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/RoleExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/RoleExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/SelectedCourseCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/Selectedcourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/SelectedcourseExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/SelectedcourseExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/SelectedcourseExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/SelectedcourseExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/StudentCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/StudentExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/StudentExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/StudentExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/StudentExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/TeacherCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/TeacherExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/TeacherExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/TeacherExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/TeacherExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/Userlogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/UserloginCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/UserloginExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/UserloginExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/UserloginExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/entity/UserloginExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/exception/CustomException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/exception/CustomExceptionResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/CollegeMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/CourseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/CourseMapperCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/RoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/SelectedcourseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/StudentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/StudentMapperCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/TeacherMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/TeacherMapperCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/UserloginMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/mapper/UserloginMapperCustom.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/realm/LoginRealm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/CollegeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/CourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/SelectedCourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/TeacherService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/UserloginService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/impl/CollegeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/impl/CourseServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/impl/SelectedCourseServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/impl/TeacherServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/elearning/service/impl/UserloginServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/controller/testController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/entity/requirement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/entity/requirementExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/entity/requirementExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/entity/requirementExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/entity/requirementExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/exception/CustomException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/exception/CustomExceptionResolver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/mapper/requirementMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/service/impl/requirementServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/service/requirementService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/accessors-smart-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/asm-5.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/attoparser-2.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/druid-1.0.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/fastjson-1.2.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/json-path-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/json-smart-2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/jsp-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/maven-model-3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/mybatis-3.2.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/ognl-3.1.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/plexus-utils-2.0.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/shiro-core-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/shiro-spring-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/shiro-web-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-aop-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-beans-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-context-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-context-support-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-core-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-expression-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-hateoas-1.0.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-jcl-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-jdbc-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-oxm-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-plugin-core-2.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-security-config-5.2.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-security-core-5.2.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-test-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-tx-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-web-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/spring-webmvc-5.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/swagger-annotations-2.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/thymeleaf-3.0.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/thymeleaf-spring4-3.0.9.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/lib/unbescape-1.1.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/project1/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/adminExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/column.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/columnExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/dataExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/donation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/donationExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/donator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/donatorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/donsupervision.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/donsupervisionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/express.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/expressExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/hospital.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/hospitalExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/hossupervision.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/hossupervisionExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/news.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/newsExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/requirement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/requirement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/requirementExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/requirementExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/resource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/resourceExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/storage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/storageExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/supervisor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/supervisorExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/usage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/usageExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/user.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/userExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/userKey.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/controller/donatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/service/donatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/service/impl/donatorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/controller/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/controller/testController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/adminMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/adminMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/columnMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/columnMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/dataMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/dataMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/donationMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/donationMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/donatorMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/donatorMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/donsupervisionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/donsupervisionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/expressMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/expressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/maskmanage/mapper/requirementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/hospitalMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/hospitalMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/hossupervisionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/hossupervisionMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/newsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/newsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/requirementMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/requirementMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/requirementMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/requirementMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/resourceMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/resourceMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/storageMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/storageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/supervisorMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/supervisorMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/usageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/usageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/project1/WEB-INF/classes/com/maskmanage/mapper/requirementMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/usageMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/userMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/userMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/realm/LoginRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/realm/LoginRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/service/UserloginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/service/UserloginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/service/impl/UserloginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/service/impl/UserloginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/maskmanage/service/requirementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/maskmanage/service/requirementService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/db.properties" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,19 +55,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -283,81 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>druid</find>
-      <find>ideajar</find>
-      <find>select</find>
-      <find>mapper</find>
-      <find>entity.requirement</find>
-      <find>selectBy</find>
-      <find>xml</find>
-      <find>selectByExample</find>
-      <find>entity</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>com.maskmanage.entity</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/exception/CustomException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/entity/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/impl/UserloginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/TeacherService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/SelectedCourseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/CourseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/CollegeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/UserloginMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/controller/RestPasswordController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/CourseMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/CourseMapperCustom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/SelectedcourseMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/StudentMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/StudentMapperCustom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/UserloginMapperCustom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/impl/TeacherServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/TeacherMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/impl/CourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/impl/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/TeacherMapperCustom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/mapper/CollegeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/controller/TeacherController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/impl/CollegeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/impl/SelectedCourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/impl/StudentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/realm/LoginRealm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/service/UserloginService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/elearning/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/realm/LoginRealm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/service/UserloginService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/service/impl/UserloginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/service/requirement.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/requirement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/entity/requirementExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/requirementMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/requirementMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/service/requirementService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/service/impl/requirementServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maskmanage/controller/testController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-      </list>
-    </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -373,158 +84,26 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project1 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project1 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="project1 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
-  </component>
+  <component name="ProjectId" id="1cZ4QFCPMZNMNfKR72OohHkaS13" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="maskmanage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="maskmanage" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="maskmanage" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="maskmanage" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="maskmanage" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/elearning/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -533,15 +112,6 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\ideaJavaProjects\project1\src\main\java\com\elearning" />
-      <recent name="E:\ideaJavaProjects\project1\src\main\webapp\WEB-INF" />
-      <recent name="E:\ideaJavaProjects\project1\src\main" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.elearning.controller" />
-      <recent name="com.elearning.realm" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ideaJavaProjects\project1\src\main\java\com\elearning\service" />
       <recent name="E:\ideaJavaProjects\project1\src\main\java\com\elearning\entity" />
@@ -549,18 +119,15 @@
       <recent name="E:\ideaJavaProjects\project1\src\main\java\com\elearning" />
       <recent name="E:\ideaJavaProjects\project1\src\main\java\com\elearning\controller" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.elearning.controller" />
+      <recent name="com.elearning.realm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideaJavaProjects\project1\src\main\java\com\elearning" />
+      <recent name="E:\ideaJavaProjects\project1\src\main\webapp\WEB-INF" />
+      <recent name="E:\ideaJavaProjects\project1\src\main" />
+    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat9">
     <configuration name="maven1" type="MavenRunConfiguration" factoryName="Maven">
@@ -589,12 +156,14 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.202" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.42" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mask_manage_project_war_exploded" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="project1:war exploded">
+        <artifact name="mask_manage_project:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/project1_war_exploded" />
+            <option name="CONTEXT_PATH" value="/mask_manage_project_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -658,6 +227,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="project1:war exploded" />
+          <artifact name="mask_manage_project:war exploded" />
         </option>
       </method>
     </configuration>
@@ -665,6 +235,29 @@
       <item itemvalue="Maven.maven1" />
       <item itemvalue="Tomcat Server.tomcat9" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.23841059" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -697,6 +290,13 @@
       <workItem from="1590716279960" duration="385000" />
       <workItem from="1590717361818" duration="224000" />
       <workItem from="1590720417798" duration="1469000" />
+      <workItem from="1590722765299" duration="673000" />
+      <workItem from="1590765414859" duration="3173000" />
+      <workItem from="1590803642974" duration="8532000" />
+      <workItem from="1590981965763" duration="4064000" />
+      <workItem from="1591006641761" duration="2682000" />
+      <workItem from="1591084998590" duration="606000" />
+      <workItem from="1591403858776" duration="20914000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1590556628994</created>
@@ -722,51 +322,6 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38447000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="63" y="-7" width="1480" height="878" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2915493" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39276138" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32931727" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.27882037" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32841823" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.27394366" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="JSF" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.16033755" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="CDI" order="10" />
-      <window_info anchor="right" id="Bean Validation" order="11" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -776,20 +331,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -814,250 +356,130 @@
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elearning/service/impl/RoleServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elearning/mapper/TeacherMapperCustom.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elearning/mapper/CollegeMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elearning/controller/AdminController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elearning/controller/TeacherController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elearning/controller/StudentController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elearning/service/impl/SelectedCourseServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elearning/service/impl/CollegeServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/elearning/service/impl/StudentServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/admin.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/adminExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/data.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/dataExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/donationExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/donator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/donatorExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/donation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/column.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/columnExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/realm/LoginRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/service/UserloginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="264" column="17" lean-forward="true" selection-start-line="264" selection-start-column="17" selection-end-line="264" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/service/impl/UserloginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/controller/testController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/service/impl/requirementServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/adminMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/donatorMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/service/requirementService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/entity/requirement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/entity/requirementExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/requirementMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/mapper/requirementMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/resourceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/storageExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/supervisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/supervisorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/usage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/usageExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/user.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/com/maskmanage/entity/userExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maskmanage/entity/data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="233" y="22" key="#Notifications" timestamp="1591426772877">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="22" key="#Notifications/0.0.1280.720@0.0.1280.720" timestamp="1591426772877" />
+    <state x="30" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591406694909">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="30" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591406694909" />
+    <state x="446" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1591430396597">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1591430396597" />
+    <state x="371" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590991570829">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="371" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1590991570829" />
+    <state x="327" y="63" key="#tomcat9" timestamp="1590722814035">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="327" y="63" key="#tomcat9/0.0.1280.720@0.0.1280.720" timestamp="1590722814035" />
+    <state x="430" y="118" key="FileChooserDialogImpl" timestamp="1590804250238">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="430" y="118" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1590804250238" />
+    <state width="731" height="2" key="GridCell.Tab.0.bottom" timestamp="1591433586796">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591433586796" />
+    <state width="731" height="2" key="GridCell.Tab.0.center" timestamp="1591433586795">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591433586795" />
+    <state width="731" height="2" key="GridCell.Tab.0.left" timestamp="1591433586795">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591433586795" />
+    <state width="731" height="2" key="GridCell.Tab.0.right" timestamp="1591433586795">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591433586795" />
+    <state width="731" height="2" key="GridCell.Tab.1.bottom" timestamp="1591433586628">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591433586628" />
+    <state width="731" height="2" key="GridCell.Tab.1.center" timestamp="1591433586628">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1591433586628" />
+    <state width="731" height="2" key="GridCell.Tab.1.left" timestamp="1591433586628">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1591433586628" />
+    <state width="731" height="2" key="GridCell.Tab.1.right" timestamp="1591433586628">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1591433586628" />
+    <state width="731" height="2" key="GridCell.Tab.2.bottom" timestamp="1591433586629">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.2.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591433586629" />
+    <state width="731" height="2" key="GridCell.Tab.2.center" timestamp="1591433586629">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.2.center/0.0.1280.720@0.0.1280.720" timestamp="1591433586629" />
+    <state width="731" height="2" key="GridCell.Tab.2.left" timestamp="1591433586629">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.2.left/0.0.1280.720@0.0.1280.720" timestamp="1591433586629" />
+    <state width="731" height="2" key="GridCell.Tab.2.right" timestamp="1591433586629">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="731" height="2" key="GridCell.Tab.2.right/0.0.1280.720@0.0.1280.720" timestamp="1591433586629" />
+    <state width="845" height="349" key="GridCell.Tab.7.bottom" timestamp="1590722862018">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="845" height="349" key="GridCell.Tab.7.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590722862018" />
+    <state width="845" height="349" key="GridCell.Tab.7.center" timestamp="1590722862018">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="845" height="349" key="GridCell.Tab.7.center/0.0.1280.720@0.0.1280.720" timestamp="1590722862018" />
+    <state width="845" height="349" key="GridCell.Tab.7.left" timestamp="1590722862018">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="845" height="349" key="GridCell.Tab.7.left/0.0.1280.720@0.0.1280.720" timestamp="1590722862018" />
+    <state width="845" height="349" key="GridCell.Tab.7.right" timestamp="1590722862018">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="845" height="349" key="GridCell.Tab.7.right/0.0.1280.720@0.0.1280.720" timestamp="1590722862018" />
+    <state width="845" height="349" key="GridCell.Tab.8.bottom" timestamp="1590722861528">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="845" height="349" key="GridCell.Tab.8.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590722861528" />
+    <state width="845" height="349" key="GridCell.Tab.8.center" timestamp="1590722861528">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="845" height="349" key="GridCell.Tab.8.center/0.0.1280.720@0.0.1280.720" timestamp="1590722861528" />
+    <state width="845" height="349" key="GridCell.Tab.8.left" timestamp="1590722861528">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="845" height="349" key="GridCell.Tab.8.left/0.0.1280.720@0.0.1280.720" timestamp="1590722861528" />
+    <state width="845" height="349" key="GridCell.Tab.8.right" timestamp="1590722861528">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="845" height="349" key="GridCell.Tab.8.right/0.0.1280.720@0.0.1280.720" timestamp="1590722861528" />
+    <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1590807086802">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1280.720@0.0.1280.720" timestamp="1590807086802" />
+    <state x="337" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1591403858085">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="337" y="189" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1591403858085" />
+    <state x="439" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591426766756">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="439" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.720@0.0.1280.720" timestamp="1591426766756" />
+    <state x="269" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1591007980069">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="269" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1591007980069" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mask_manage_project$tomcat9.ic" NAME="tomcat9 Coverage Results" MODIFIED="1590804062075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="masterDetails">
     <states>
