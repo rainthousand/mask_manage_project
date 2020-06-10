@@ -1,6 +1,8 @@
 package com.maskmanage.controller;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.maskmanage.entity.maskusage;
 import com.maskmanage.entity.requirement;
 import com.maskmanage.service.*;
 import io.swagger.v3.oas.annotations.Operation;
@@ -25,6 +27,8 @@ public class testController {
 
     @Resource(name = "requirementServiceImpl")
     private requirementService reqService;
+    @Resource(name = "supervisionServiceImpl")
+    private supervisorService supervisorService;
 
 //    @RequestMapping("home")
 //    public @ResponseBody
@@ -42,9 +46,7 @@ public class testController {
 //
     @GetMapping(value="reqs")
 //    @PreAuthorize("hasAuthority('INVENTORY_VIEW')")
-    public String getAllRequirements(){
-        List<requirement> list= reqService.getAllRequirement();
-
-        return JSON.toJSONString(list);
+    public List<maskusage> getAllRequirements(){
+       return supervisorService.getUsage(1,1,0);
     }
 }

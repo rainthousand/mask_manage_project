@@ -23,6 +23,9 @@
 
       <!--mybatis 版本号-->
       <mybatis.version>3.2.4</mybatis.version>
+
+      <jackson.version>2.9.4</jackson.version>
+
   </properties>
 
   <dependencies>
@@ -120,6 +123,19 @@
       </dependency>
 
       <!-- spring end -->
+
+
+
+      <dependency>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-core</artifactId>
+          <version>${jackson.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>com.fasterxml.jackson.core</groupId>
+          <artifactId>jackson-databind</artifactId>
+          <version>${jackson.version}</version>
+      </dependency>
 
       <!--mybatis核心包-->
       <dependency>
