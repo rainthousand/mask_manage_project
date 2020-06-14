@@ -44,7 +44,7 @@ public class testController {
 //    @PreAuthorize("hasAuthority('INVENTORY_VIEW')")
     public String getAllRequirements(){
         List<requirement> list= reqService.getAllRequirement();
-
+        System.out.println("213");
         return JSON.toJSONString(list);
     }
 }

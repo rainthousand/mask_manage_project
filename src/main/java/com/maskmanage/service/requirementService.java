@@ -6,6 +6,5 @@ import java.util.List;
 
 public interface requirementService {
     void save(requirement reqr) throws Exception;
-
     List<requirement> getAllRequirement();
 }
